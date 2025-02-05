@@ -3,18 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node ./src/server_request_post.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tlsalsco41122/node-post.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tlsalsco41122/node-post/issues"
   },
   "homepage": "https://github.com/tlsalsco41122/node-post#readme",
-  "description": ""
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
 }
