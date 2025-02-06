@@ -1,4 +1,4 @@
-const mysql = require("./db/mysql");
+const mysql = require("../db/mysql");
 
 const createDataService = async (data) => {
     try{ // try-catch로 예외 처리하기

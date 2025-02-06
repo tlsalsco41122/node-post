@@ -1,4 +1,4 @@
-const createDataService = require("./services/post.service");
+const createDataService = require("../services/post.service");
 
 const createData = async (req, res, title, content) => {
     try {
