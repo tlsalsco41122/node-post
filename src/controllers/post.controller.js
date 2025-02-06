@@ -1,4 +1,4 @@
-const { createDataService } = require("./services/post.service");
+const createDataService = require("./services/post.service");
 
 const createData = async (req, res, title, content) => {
     try {
@@ -13,4 +13,4 @@ const createData = async (req, res, title, content) => {
     }
 };
 
-module.exports = { createData };
+module.exports = createData;
