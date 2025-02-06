@@ -11,6 +11,7 @@ const createDataService = async (data) => {
             [title, content]
         );
 
+        // connection.release() 필요 없음 → Connection Pool이 자동으로 관리
         console.log("데이터 삽입 성공:", results);
     } catch (error) {
         console.log("데이터 삽입 중 오류:", error.message);
